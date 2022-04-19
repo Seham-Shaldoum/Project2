@@ -1,0 +1,92 @@
+<!-- Please, set the screen zoom to 67% if used on a laptop screen, this page was designed on a monitor screen. -->
+
+<!-- Code inispired by Brad Traversy github page-->
+<!DOCTYPE html>        
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vertical Slider</title>
+  </head>
+  <body>
+    <div class="slider-container">
+      <div class="left-slide">
+        <div style="background-color: #C45980">         
+            
+              <!-- each box paragraphs and titles (changes by clicking the buttons up or down) -->
+          <h1>PV systems</h1>
+          <p>PV systems aren’t capable of producing or storing thermal energy since they use direct sunlight instead of the sun’s heat. And in addition to that, storing electricity is also not easily done, especially at large power levels. </p>
+          <p>NREL estimates that an average of 3.3 million homes per year will be built or</p>
+          <p>require roof replacement—representing a potential of roughly 30 gigawatts (GW) of </p>
+            <p>solar capacity per year. If even a small fraction of these new roofs had solar installations, it could have a significant impact on U.S. solar power generation.</p>
+        </div>
+        <div style="background-color: #FC8800">
+          <h1>Photovoltaic (PV) </h1>
+          <p>Photovoltaic (PV) solar panels, on the other hand, are completely different from CSP. Unlike CSP which uses the sun’s energy, PV solar panels make use of the sun’s light instead. In other words, photovoltaics is the direct conversion of light into electricity. The way this works is that the solar PV cells absorb light, which will then knock electrons loose. Then once the loose electrons flow, a current is created, and this current is then</p>
+         <p> captured and transferred into wires, thus generating a direct electric current (DC). After the direct electric current is generated, it is then converted into AC, usually using inverters, so that it will be distributed on the power network. </p>
+        </div>
+        <div style="background-color: #5C82BC">
+          <h1>MicroCSP</h1>
+          <p>MCSP is considered the small, modular alternative to large-scaled CSP.  This translates into CSP options that can be used for small power projects and rooftop installations. The technology operates at lower temperatures and pressures so its affordable to install</p>
+          <p> and runs automatically. MCSP is already very efficient.  In thermal conversion, this technology is between 40-70% efficiency.</p>
+        </div>
+        <div style="background-color: #0F1238">
+          <h1>Concentrated Solar Power (CSP)</h1>
+          <p> Concentrated Solar Thermal systems (CSP) produce electric power by converting the sun’s energy into high-temperature heat using various mirror configurations. CSP systems can store energy using Thermal Energy Storage technologies (TES).</p>
+          <p> As a result, they can use it at times when there is little to no sunlight, like during the nighttime or cloudy days, to generate electric power. Because of the CSP’s ability to</p>
+          <p>store energy, the penetration of solar thermal technology in the power generation industry is increased since it helps overcome irregularity issues.</p>
+        </div>
+      </div>
+      <div class="right-slide">
+
+        <!-- importing the images from the internet-->
+        <div style="background-image: url('https://api.time.com/wp-content/uploads/2016/04/20140625_cp_03255w1timereview.jpg')"></div>
+
+        <div style="background-image: url('https://www.solec.org/wp-content/gallery/solkote-applications/sopogysolkote.gif')"></div>
+        <div style="background-image: url('https://www.afrik21.africa/wp-content/uploads/2020/05/shutterstock_1527609272-2-1-800x400.jpg')"></div>
+        <div style="background-image: url('https://calmatters.org/wp-content/uploads/2022/01/rooftop-solar.jpg')"></div>
+      </div>
+      <div class="action-buttons">            <!-- defining the clickable buttons-->
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+<!-- styling the link to the next page: color, border, and set up-->
+  <style>
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid darkblue;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+ width: max-content;
+
+
+}
+
+a:hover, a:active {
+  background-color: #B41003;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<!-- linking to the next page-->    
+<a href="./CO2" target="_blank">Next</a>
+
+  </body>
+</html>

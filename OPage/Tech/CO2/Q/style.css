@@ -1,0 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;        /* font type*/
+  margin: 0;
+  background: black;          /* background color*/
+  color: white;                 /* text color */
+  text-align: center;
+}

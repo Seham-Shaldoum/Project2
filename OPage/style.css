@@ -1,0 +1,37 @@
+html{
+   margin:0;
+  padding:0;
+  max-height:100vh;
+  overflow:hidden;
+}
+body {
+
+}
+
+}
+canvas {
+  display: block;
+}
+
+
+/* Style the body */
+body {
+  font-family: Arial;        /* font type*/
+  margin: 0;
+  background: black;          /* background color*/
+  color: white;                 /* text color */
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 50px;
+  text-align: center;            /* header position*/
+  background: black;              /* header backgroung color then font color*/
+  color: white;
+  font-size: 30px;                /* header font size*/
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+
